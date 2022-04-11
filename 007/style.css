@@ -1,16 +1,13 @@
 body {
   background-image: url(/007/img/bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 0;
 }
 .products-item {
   background-color: rgba(255, 0, 0, 0.5);
   color: white;
   padding: 10px 15px;
-  margin: 50px 0;
-  border-radius: 50px 0 0 0;
-  /* outline: 1px solid red; */
-  box-shadow: black 0 0 20px 10px;
+  margin: 0px 0 50px;
+  height: 100vh;
 }
 .product-item__title {
   width: 50%;
