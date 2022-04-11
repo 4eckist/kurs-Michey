@@ -10,8 +10,10 @@ body {
   height: 100vh;
 }
 .products-item:first-child {
-  background: coral url(./img/pic01.jpeg) no-repeat;
-  background-position: center;
+  background: url(./img/pic01.jpeg) no-repeat, url(./img/pic01.jpeg) no-repeat;
+  background-position: top center, bottom center;
+  background-size: 500px, 200px;
+  background-color: coral;
 }
 .product-item__title {
   width: 50%;
