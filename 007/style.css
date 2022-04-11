@@ -3,6 +3,8 @@
   color: white;
   padding: 10px 15px;
   margin: 5px 0;
+  border-radius: 50px 0;
+  outline: 1px solid red;
 }
 .product-item__title {
   width: 50%;
