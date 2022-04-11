@@ -1,3 +1,9 @@
+.products-item {
+  background-color: chocolate;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px 0;
+}
 .product-item__title {
   width: 50%;
   height: auto;
