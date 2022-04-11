@@ -19,6 +19,8 @@ body {
   background: url(./img/pic01.jpeg) no-repeat;
   background-color: coral;
   background-size: cover;
+  background-position: right top;
+  background-attachment: fixed;
 }
 .product-item__title {
   width: 50%;
