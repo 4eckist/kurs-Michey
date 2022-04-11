@@ -1,5 +1,7 @@
 body {
   background-image: url(/007/img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .products-item {
   background-color: rgba(255, 0, 0, 0.5);
