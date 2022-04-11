@@ -1,6 +1,11 @@
 .product-item__title {
-  margin: 5px;
-  margin-top: 10px;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  /* margin: 5px 0; */
+  margin: 10px auto;
+  padding: 10px 15px;
+  line-height: 1;
   border: 1px solid #000;
 }
 .product-item__description {
