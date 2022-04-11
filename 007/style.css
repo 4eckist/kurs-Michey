@@ -15,6 +15,11 @@ body {
   background-size: 500px, 200px;
   background-color: coral;
 }
+.products-item:nth-child(2) {
+  background: url(./img/pic01.jpeg) no-repeat;
+  background-color: coral;
+  background-size: cover;
+}
 .product-item__title {
   width: 50%;
   height: auto;
