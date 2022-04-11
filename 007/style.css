@@ -1,0 +1,10 @@
+.product-item__title {
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 10px 15px;
+}
+
+.product-item__description {
+}
