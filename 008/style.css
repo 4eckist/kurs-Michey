@@ -1,12 +1,13 @@
 .link {
   text-transform: none;
   text-decoration: none;
+  color: darkkhaki;
 }
 
 .link:hover {
   border-bottom: 1px solid;
 }
 
-.link:visited {
-  color: darkgoldenrod;
+.link:active {
+  color: green;
 }
