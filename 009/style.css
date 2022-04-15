@@ -9,3 +9,8 @@
   display: block;
   object-fit: cover;
 }
+
+.fa-bicycle {
+  font-size: 50px;
+  color: red;
+}
