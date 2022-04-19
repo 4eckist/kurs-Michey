@@ -14,3 +14,13 @@ a:link:hover {
 a:visited:hover {
   color: darkolivegreen;
 }
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+input:focus {
+  border-bottom: 1px solid blue;
+}
