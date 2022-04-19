@@ -14,6 +14,13 @@ a:link:hover {
 a:visited:hover {
   color: darkolivegreen;
 }
+a:not(.bing) {
+  color: red;
+}
+a[href="http://google.com"]
+{
+  text-transform: uppercase;
+}
 
 input {
   border: none;
