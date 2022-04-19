@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  margin-right: 10px;
+}
+a:link:hover {
+  color: orange;
+}
+a:visited:hover {
+  color: darkolivegreen;
+}
