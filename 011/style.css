@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
 }
 
-a {
+/* a {
   display: inline-block;
   margin-right: 10px;
 }
@@ -30,4 +30,25 @@ input {
 
 input:focus {
   border-bottom: 1px solid blue;
+} */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.product__item {
+  width: 280px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: cornflowerblue;
+}
+
+.product__item:first-child {
+  background-color: darkkhaki;
+}
+
+.product__item:last-child {
+  background-color: darkgray;
 }
