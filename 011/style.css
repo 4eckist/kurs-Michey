@@ -4,11 +4,19 @@ body {
   box-sizing: border-box;
 }
 
-/* a {
+a {
   display: inline-block;
   margin-right: 10px;
+  text-decoration: none;
 }
-a:link:hover {
+a::before {
+  content: '@';
+}
+a::after {
+  content: ' >';
+  margin-left: 10px;
+}
+/* a:link:hover {
   color: orange;
 }
 a:visited:hover {
