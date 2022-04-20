@@ -45,10 +45,18 @@ input:focus {
   background-color: cornflowerblue;
 }
 
-.product__item:first-child {
+.product__item:first-of-type {
   background-color: darkkhaki;
 }
 
-.product__item:last-child {
+.product__item:last-of-type {
   background-color: darkgray;
+}
+
+.product__item:nth-child(-n + 3) {
+  margin-top: 0px;
+}
+.product__item:nth-child(3n) {
+  background-color: fuchsia;
+  margin-right: 0px;
 }
