@@ -72,3 +72,7 @@ input:focus {
   background-color: fuchsia;
   margin-right: 0px;
 }
+
+.products:hover .product__item {
+  background-color: darkgreen;
+}
