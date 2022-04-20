@@ -16,6 +16,10 @@ a::after {
   content: ' >';
   margin-left: 10px;
 }
+a::selection {
+  background-color: cyan;
+  color: brown;
+}
 /* a:link:hover {
   color: orange;
 }
